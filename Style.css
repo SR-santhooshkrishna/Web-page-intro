@@ -1,0 +1,86 @@
+body{
+	background-color: #f4f4f4;
+	color: #333;
+	line-height: 1.6em;
+	margin: 0;
+	font-family: tahoma;
+	font-size: 16px;
+
+}
+.container{
+	width:  80%;
+	margin:auto;
+	overflow: hidden;
+}
+#HEADER1{
+	background-color: coral;
+	color: #fff;
+
+}
+#navbar{
+	background-color: #333;
+	color: #fff;
+
+}
+#navbar ul{
+	padding: 0;
+	list-style: none;
+
+}
+#navbar li{
+	display: inline;
+}
+#navbar a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+
+}
+.container h1{
+	text-align: center;
+}
+#page{
+background-image: url('do.jpg');
+background-position: center right;
+min-height: 200px;
+margin-bottom: 30px;
+text-align: center;
+}
+#page h3{
+	color: #fff;
+	font-size: 30px;
+	padding-top: 30px;
+}
+#Main{
+float: left;
+width: 70%;
+padding: 0 30px;
+box-sizing: border-box;
+}
+#H1{
+	float: right;
+	width: 30%;
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	box-sizing: border-box;
+}
+#f1{
+	background-color: #333;
+	color: #fff;
+	text-align:center;
+	padding: 20px;
+	margin-top: 40px;
+}
+@media(max-width: 60px){
+	#Main{
+		width: 100%;
+		float: none;
+
+	}
+	#H1{
+		width: 100%;
+		float: none;
+	}
+}
